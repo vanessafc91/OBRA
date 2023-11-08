@@ -1,0 +1,28 @@
+version: "5.1"
+services:
+  db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: tienda
+      MYSQL_ROOT_PASSWORD: secret
+      
+    ports:
+      - '3306:3306'
+    volumes:
+      - ./aplicacion:/docker-entrypoint-initdb.d
+      - persistent:/var/lib/mysql
+
+    networks:
+      - default
+
+  www:
+    build: .
+    ports: 
+      - "80:80"
+    volumes:
+      - ./aplicacion: /var/www/html
+    links:
+      - db
+    networks:
+      - default

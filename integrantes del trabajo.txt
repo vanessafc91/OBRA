@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 Andrea Pinzón Triana - COD 
 
 Vanessa Forero Castro – COD 100290960 
 
 Jaime Humberto Gómez Barreto – COD 
 
+=======
+Andrea Pinzón Triana - COD 
+
+Vanessa Forero Castro – COD 100290960 
+
+Jaime Humberto Gómez Barreto – COD 
+
+>>>>>>> ca0191d7826f4dcbadc621fa90f57a30f1e559ee
 Juan Pablo Castilla Fernández - COD 
