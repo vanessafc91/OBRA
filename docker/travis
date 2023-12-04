@@ -1,6 +1,0 @@
-language: CSharp
-solution: src/integracionContinuaobra.sln
-install:
-    -nuget restore src/integracionContinuaobra.sln
-script:
-    -msbuild /p:Configuracion-Release IntegracionContinuaobra.sln
