@@ -1,6 +1,2 @@
 language: php
-solution: src/obra.sln
-install:
-    -nuget restore src/obra.sln
-script:
-    -msbuild /p:Configuration-Release obra.sln
+
