@@ -1,4 +1,4 @@
-language: CSharp
+language: php
 solution: src/obra.sln
 install:
     -nuget restore src/obra.sln
