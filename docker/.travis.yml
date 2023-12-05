@@ -6,7 +6,7 @@ Cache:
   directories:
     - vendor
 before_script:
-- composer install --no-interaction --prefer-source
+- composer require atoum/atoum
 Script:
- - composer phpcs-auto-check-project
+ -vendor/bin/atoum
 
