@@ -10,8 +10,7 @@ services:
   - redis
 
 before_script:
-  - cp .env.example .env
-  - mysql -e "CREATE DATABASE example_app"
+    - mysql -e "CREATE DATABASE example_app"
   - composer self-update
   - composer install --no-interaction --prefer-source
   - npm install
