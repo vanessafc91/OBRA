@@ -6,6 +6,6 @@ Cache:
   directories:
     - vendor
 before_script:
-  - composer install --no-interaction
+- composer install --no-interaction --prefer-source
 Script:
  - composer phpcs-auto-check-project
